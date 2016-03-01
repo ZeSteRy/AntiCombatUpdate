@@ -15,6 +15,7 @@ public class CommandExecutor implements org.bukkit.command.CommandExecutor{
 
             if (!(sender instanceof Player)) {
                 Bukkit.getConsoleSender().sendMessage("§cThis command can't execute in console ! | Cette commande ne peux pas etre executee dans la console :o");
+                return true;
             }
 
             Player p = (Player) sender;
