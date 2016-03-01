@@ -1,1 +1,5 @@
-main:
+main: net.zestery.combat.Core
+name: AntiCombatUpdate
+version: 1.9
+author: ZeSteRy
+website: www.zestery.fr
