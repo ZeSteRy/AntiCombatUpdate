@@ -1,5 +1,6 @@
 package net.zestery.combat;
 
+import net.zestery.combat.commands.CommandExecutor;
 import net.zestery.combat.events.Damager;
 import net.zestery.combat.events.EatAPPLE;
 import net.zestery.combat.events.Join;
@@ -34,6 +35,8 @@ public class Core extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        ourInstance = this;
+        plugin = this;
         for (Player player : Bukkit.getOnlinePlayers()) {
             player.getAttribute(Attribute.GENERIC_ATTACK_SPEED).setBaseValue(16.0D);
         }
@@ -50,6 +53,8 @@ public class Core extends JavaPlugin {
         pm.registerEvents(new Damager(), this);
         pm.registerEvents(new EatAPPLE(), this);
         pm.registerEvents(new Join(), this);
+        saveDefaultConfig();
+        getCommand("acu").setExecutor(new CommandExecutor());
     }
 
     @Override

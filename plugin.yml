@@ -3,3 +3,6 @@ name: AntiCombatUpdate
 version: 1.9
 author: ZeSteRy
 website: www.zestery.fr
+commands:
+ acu:
+  description: Changer les valeurs de combat

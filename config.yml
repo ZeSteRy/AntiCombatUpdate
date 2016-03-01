@@ -14,6 +14,10 @@ defaultLanguage: EN
 # msgPlayers = FR : Ce serveur a changé les valeurs de cooldown pour le combat ! Découvrez-les dès maintenant !
 informPlayers: true
 
+# Activer les updates automatiques | Active auto update
+
+autoUpdate: false
+
 # Prefixs colors are accepted ! | Les préfixes de couleurs sont acceptés ! | Use \n if you want to add line | Utiliser \n si vous voulez ajouter une ligne en plus
 msgPlayers: '&cThis server has changed the values cooldown for battle in 1.9 !'
 
