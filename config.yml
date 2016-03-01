@@ -2,5 +2,66 @@
 #              AntiCombatUpdate - For angry players with 1.9               #
 #                 Values of configuration for plugins                      #
 #                Language is supported in this plugin                      #
+#                 Plugin by ZeSteRy | Copyright 2016                       #
 ############################################################################
 
+# Values for that : EN or FR | Valeurs pour defaultLanguage, utilisez : EN = English ou FR = Français
+
+defaultLanguage: EN
+
+# Inform player cooldown is modified on your server | Avertir les joueurs que les cooldowns de combats sont modifiés ?
+# Values : true of false | Valeurs : true of false
+# msgPlayers = FR : Ce serveur a changé les valeurs de cooldown pour le combat ! Découvrez-les dès maintenant !
+informPlayers: true
+
+# Prefixs colors are accepted ! | Les préfixes de couleurs sont acceptés !
+msgPlayers: '&cThis server has changed the values cooldown for battle in 1.9 !'
+
+############################################################################
+#           Values for combat in 1.9 | Valeurs de combat en 1.9            #
+############################################################################
+
+# Back to previous effects in 1.8 for god apple ! | Revenir aux anciens effets de la 1.8 pour la pomme de notch !
+
+previousGodApple: true
+
+# if true = Save cooldown in 1.9, just change cooldown value | Garder le cooldown en 1.9, juste changer les valeurs du cooldown
+
+saveCooldown: false
+cooldownPerSeconds: 3
+
+############################################################################
+#    Increase damage by items | Dégats infligés par items (no enchants)    #
+############################################################################
+
+changeIncreaseDamage: false
+
+# Damage with sword are not changed with this version (1.9)
+
+# LIST DAMAGE IN 1.9 (no enchants are appliqued)
+
+   # SWORDS (Epees)
+
+# WOODEN_SWORD : 4
+# GOLDEN_SWORD : 4
+# STONE_SWORD : 5
+# IRON_SWORD : 6
+# DIAMAND_SWORD : 7
+
+# REMOVE HASHTAG IF YOU WANT TO CHANGE VALUES DAMAGE FOR AN ITEM ! | Enlever le hashtag devant l'item si vous voulez changer une valeur de dégats à un item !
+
+  # AXES (Haches)
+
+# WOODEN_AXE : 7
+# GOLDEN_AXE : 7
+# STONE_AXE : 9
+# IRON_AXE : 9
+# DIAMAND_AXE : 9
+
+  # SPADES (Pelles)
+
+# WOODEN_SPADE : 2.5
+# GOLDEN_SPADE : 2.5
+# STONE_SPADE : 3.5
+# IRON_SPADE : 4.5
+# DIAMAND_SPADE : 5.5
